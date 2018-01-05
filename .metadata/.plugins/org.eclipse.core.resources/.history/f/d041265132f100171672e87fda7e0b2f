@@ -1,0 +1,20 @@
+package 匿名内部类的使用;
+
+//匿名内部类的 方法的调用以及参数的传递
+
+public class TestClass {
+	public void input() {
+		A i=new A(){
+
+			@Override
+			public void test(String name, int age) {
+				// TODO Auto-generated method stub
+				System.out.println("姓名:"+name+" "+"年龄："+age);
+			}
+
+			
+		};
+		
+	}
+
+}

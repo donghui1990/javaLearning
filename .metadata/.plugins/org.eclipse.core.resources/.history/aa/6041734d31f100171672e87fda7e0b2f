@@ -1,0 +1,8 @@
+package 匿名内部类的使用;
+
+//匿名内部类的 方法的调用以及参数的传递
+
+public class TestClass {
+	
+
+}
